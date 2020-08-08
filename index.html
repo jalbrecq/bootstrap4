@@ -9,19 +9,111 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <title>My first (good) Bootstrap site</title>
-
-    <style>
-      .thumb{padding: 60px 10px; text-align: center; background: #ddd;}
-      .thumb:nth-child(even){background: #eee;}
-      h1, h2{margin: 30px 0;}
-      .container-fluid, .container{margin: 50px auto; height: 200px;}
-    </style>
+    <style></style>
   </head>
   <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-info">
+      <div class="container">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse row navbar-collapse" id="mainNav">
+          <div class="navbar-nav col-6">
+            <a href="#" class="nav-item nav-link active">Home</a>
+          </div>
+          <div class="navbar-nav col-6 justify-content-end">
+            <a href="#" class="nav-item nav-link">About</a>
+            <a href="#" class="nav-item nav-link">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid bg-info text-white">
+      <div class="container">
+        <h1 class="display-1">Welcome!</h1>
+        <p class="lead text-md-center"><em>Actualy the first good bootstrap website that I made</em></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1>Tech. that I already used</h1>
+    </div>
+
+    <div class="container text-muted">
+      <!-- cards -->
+      <div class="row">
+        <div class="col-sm-12 col-lg-6">
+          <div class="card m-2">
+            <img src="img/nodejs.png" alt="nodejs logo" class="card-img-top img-fluid p-1"/>
+            <div class="card-body">
+              <h3 class="card-title">Nodejs Training</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam saepe, explicabo nam qui pariatur sed hic alias consectetur nostrum suscipit fugiat rerum reiciendis quo dolor ducimus unde blanditiis, ipsa voluptatum!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <div class="card m-2">
+            <img src="img/react.png" alt="react logo" class="card-img-top img-fluid"/>
+            <div class="card-body">
+              <h3 class="card-title">Reactjs Training</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam saepe, explicabo nam qui pariatur sed hic alias consectetur nostrum suscipit fugiat rerum reiciendis quo dolor ducimus unde blanditiis, ipsa voluptatum!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <div class="card m-2">
+            <img src="img/webpack.png" alt="webpack logo" class="card-img-top img-fluid"/>
+            <div class="card-body">
+              <h3 class="card-title">Webpack Training</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam saepe, explicabo nam qui pariatur sed hic alias consectetur nostrum suscipit fugiat rerum reiciendis quo dolor ducimus unde blanditiis, ipsa voluptatum!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <div class="card m-2">
+            <img src="img/mongodb.png" alt="mongodb logo" class="card-img-top img-fluid"/>
+            <div class="card-body">
+              <h3 class="card-title">Mongodb Training</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam saepe, explicabo nam qui pariatur sed hic alias consectetur nostrum suscipit fugiat rerum reiciendis quo dolor ducimus unde blanditiis, ipsa voluptatum!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="display-4 text-center py-5 my-4">Meet the Speakers</h2>
+
+      <nav class="nav nav-pills justify-content-center flex-column flex-md-row" id="pills-tab" role="tablist">
+          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+          <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+      </nav>
+      <div class="tab-content mb-5" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+          <h3>1 Lorem, ipsum dolor.</h3>
+          <p>Lorem, <span data-toggle="tooltip" title="this is a tooltip" class="text-info" data-placement="top">ipsum dolor</span> sit amet consectetur adipisicing elit. Rerum adipisci ducimus ad libero eum fugiat! Mollitia perferendis rem voluptates nihil!</p>
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <h3>2 Lorem, ipsum dolor.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sed adipisci maxime itaque natus architecto vitae quod esse distinctio beatae.</p>
+        </div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+          <h3>3 Lorem, ipsum dolor.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sed adipisci maxime itaque natus architecto vitae quod esse distinctio beatae.</p>
+        </div>
+      </div>
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script>
+      $(function () {
+        $('[data-taggle="tooltip"]').tooltip();
+      });
+    </script>
   </body>
 </html>
