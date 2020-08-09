@@ -19,10 +19,10 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse row navbar-collapse" id="mainNav">
-          <div class="navbar-nav col-6">
+          <div class="navbar-nav col-md-6">
             <a href="#" class="nav-item nav-link active">Home</a>
           </div>
-          <div class="navbar-nav col-6 justify-content-end">
+          <div class="navbar-nav col-md-6 justify-content-end">
             <a href="#" class="nav-item nav-link">About</a>
             <a href="#" class="nav-item nav-link">Contact</a>
           </div>
@@ -33,77 +33,122 @@
     <div class="jumbotron jumbotron-fluid bg-info text-white">
       <div class="container">
         <h1 class="display-1">Welcome!</h1>
-        <p class="lead text-md-center"><em>Actualy the first good bootstrap website that I made</em></p>
+        <p class="lead text-md-center">
+          <em>
+            On actualy the first good bootstrap website that I made
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-emoji-smile-upside-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M8 1a7 7 0 1 1 0 14A7 7 0 0 1 8 1zm0-1a8 8 0 1 1 0 16A8 8 0 0 1 8 0z"/>
+              <path fill-rule="evenodd" d="M4.285 6.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 4.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 3.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683z"/>
+              <path d="M7 9.5C7 8.672 6.552 8 6 8s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5zm4 0c0-.828-.448-1.5-1-1.5s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5z"/>
+            </svg>
+            .
+          </em>
+        </p>
       </div>
     </div>
 
     <div class="container">
-      <h1>Tech. that I already used</h1>
-    </div>
+      <h2 class="display-4 text-center text-md-left pt-5 my-4">Meet my Creations</h2>
 
-    <div class="container text-muted">
-      <!-- cards -->
-      <div class="row">
-        <div class="col-sm-12 col-lg-6">
-          <div class="card m-2">
-            <img src="img/nodejs.png" alt="nodejs logo" class="card-img-top img-fluid p-1"/>
-            <div class="card-body">
-              <h3 class="card-title">Nodejs Training</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam saepe, explicabo nam qui pariatur sed hic alias consectetur nostrum suscipit fugiat rerum reiciendis quo dolor ducimus unde blanditiis, ipsa voluptatum!</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-12 col-lg-6">
-          <div class="card m-2">
-            <img src="img/react.png" alt="react logo" class="card-img-top img-fluid"/>
-            <div class="card-body">
-              <h3 class="card-title">Reactjs Training</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam saepe, explicabo nam qui pariatur sed hic alias consectetur nostrum suscipit fugiat rerum reiciendis quo dolor ducimus unde blanditiis, ipsa voluptatum!</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-12 col-lg-6">
-          <div class="card m-2">
-            <img src="img/webpack.png" alt="webpack logo" class="card-img-top img-fluid"/>
-            <div class="card-body">
-              <h3 class="card-title">Webpack Training</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam saepe, explicabo nam qui pariatur sed hic alias consectetur nostrum suscipit fugiat rerum reiciendis quo dolor ducimus unde blanditiis, ipsa voluptatum!</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-12 col-lg-6">
-          <div class="card m-2">
-            <img src="img/mongodb.png" alt="mongodb logo" class="card-img-top img-fluid"/>
-            <div class="card-body">
-              <h3 class="card-title">Mongodb Training</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam saepe, explicabo nam qui pariatur sed hic alias consectetur nostrum suscipit fugiat rerum reiciendis quo dolor ducimus unde blanditiis, ipsa voluptatum!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <h2 class="display-4 text-center py-5 my-4">Meet the Speakers</h2>
-
-      <nav class="nav nav-pills justify-content-center flex-column flex-md-row" id="pills-tab" role="tablist">
-          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
-          <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
-          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+      <nav class="nav nav-pills justify-content-center flex-column flex-md-row pb-2" id="pills-tab" role="tablist">
+          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">My bike list</a>
+          <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">This website</a>
       </nav>
       <div class="tab-content mb-5" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-          <h3>1 Lorem, ipsum dolor.</h3>
-          <p>Lorem, <span data-toggle="tooltip" title="this is a tooltip" class="text-info" data-placement="top">ipsum dolor</span> sit amet consectetur adipisicing elit. Rerum adipisci ducimus ad libero eum fugiat! Mollitia perferendis rem voluptates nihil!</p>
+          <h3>
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bicycle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M3 12a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10-1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+              <path fill-rule="evenodd" d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935 2.375 3.8a.5.5 0 1 1-.848.53L10.5 6.943l-2.076 3.322A.5.5 0 0 1 8 10.5H3a.5.5 0 0 1-.424-.765L5 5.857V5h-.5a.5.5 0 0 1-.5-.5zm1.5 2.443L3.902 9.5h3.196L5.5 6.943zM8 9.057L9.598 6.5H6.402L8 9.057z"/>
+            </svg>
+            My bike list
+            <small>
+              <a target="_blank" rel="noopener noreferrer" href="https://the-bike-list.herokuapp.com/">
+                Vist it
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-box-arrow-up-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M1.5 13A1.5 1.5 0 0 0 3 14.5h8a1.5 1.5 0 0 0 1.5-1.5V9a.5.5 0 0 0-1 0v4a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 0 0-1H3A1.5 1.5 0 0 0 1.5 5v8zm7-11a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.5H9a.5.5 0 0 1-.5-.5z"/>
+                  <path fill-rule="evenodd" d="M14.354 1.646a.5.5 0 0 1 0 .708l-8 8a.5.5 0 0 1-.708-.708l8-8a.5.5 0 0 1 .708 0z"/>
+                </svg>
+              </a>
+            </small>
+          </h3>
+          <p>This just a bike list website where you can add and remove bikes from a list. It's made with React, Apollo and Bootstrap for the frontend, for the backend it's use a MongoDB database, GraphQL, Nodejs</p>
         </div>
         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-          <h3>2 Lorem, ipsum dolor.</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sed adipisci maxime itaque natus architecto vitae quod esse distinctio beatae.</p>
-        </div>
-        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-          <h3>3 Lorem, ipsum dolor.</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sed adipisci maxime itaque natus architecto vitae quod esse distinctio beatae.</p>
+          <h3>This website <small class="text-muted">(the one you are actualy on)</small></h3>
+          <p>This is a simple static html file with some bootstrap class on it. It can also serve as a bad portfolio.</p>
         </div>
       </div>
     </div>
+    
+    <div class="container">
+      <h1 class="display-4 text-center pt-5 my-4">Tech. that I already used</h1>
+      <!-- cards -->
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card m-2">
+            <img src="img/nodejs.png" alt="nodejs logo" class="card-img-top img-fluid p-1"/>
+            <div class="card-body">
+              <h3 class="card-title">Nodejs</h3>
+              <p class="text-muted text-truncate">Node.js is an open-source, cross-platform,</p>
+              <a target="_blank" rel="noopener noreferrer" href="https://nodejs.org/en/" class="stretched-link">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-earmark-text-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M2 3a2 2 0 0 1 2-2h5.293a1 1 0 0 1 .707.293L13.707 5a1 1 0 0 1 .293.707V13a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3zm7 2V2l4 4h-3a1 1 0 0 1-1-1zM4.5 8a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+                Got to the Docs
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card m-2">
+            <img src="img/react.png" alt="react logo" class="card-img-top img-fluid"/>
+            <div class="card-body">
+              <h3 class="card-title">React (web framework)</h3>
+              <p class="text-muted text-truncate"><span data-toggle="tooltip" title="(also known as React.js or ReactJS)" class="text-info" data-placement="top">React</span> is an open-source JavaScript library for building user interfaces.</p>
+              <a target="_blank" rel="noopener noreferrer" href="https://fr.reactjs.org/" class="stretched-link">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-earmark-text-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M2 3a2 2 0 0 1 2-2h5.293a1 1 0 0 1 .707.293L13.707 5a1 1 0 0 1 .293.707V13a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3zm7 2V2l4 4h-3a1 1 0 0 1-1-1zM4.5 8a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+                Got to the Docs
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card m-2">
+            <img src="img/graphql.png" alt="graphql logo" class="card-img-top img-fluid"/>
+            <div class="card-body">
+              <h3 class="card-title">GraphQL</h3>
+              <p class="text-muted text-truncate">GraphQL is an open-source data query and manipulation language for APIs</p>
+              <a target="_blank" rel="noopener noreferrer" href="https://graphql.org/" class="stretched-link">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-earmark-text-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M2 3a2 2 0 0 1 2-2h5.293a1 1 0 0 1 .707.293L13.707 5a1 1 0 0 1 .293.707V13a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3zm7 2V2l4 4h-3a1 1 0 0 1-1-1zM4.5 8a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+                Got to the Docs
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card m-2">
+            <img src="img/mongodb.png" alt="mongodb logo" class="card-img-top img-fluid"/>
+            <div class="card-body">
+              <h3 class="card-title">MongoDB</h3>
+              <p class="text-muted text-truncate">MongoDB is a cross-platform document-oriented database program.</p>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.mongodb.com/fr" class="stretched-link">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-earmark-text-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M2 3a2 2 0 0 1 2-2h5.293a1 1 0 0 1 .707.293L13.707 5a1 1 0 0 1 .293.707V13a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3zm7 2V2l4 4h-3a1 1 0 0 1-1-1zM4.5 8a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+                Got to the Docs
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container"></div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
